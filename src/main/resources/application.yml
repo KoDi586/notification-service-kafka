@@ -14,4 +14,4 @@ spring:
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       properties:
         spring.json.trusted.packages: "*"
-        spring.json.value.default.type: com.microservices.notification.event.VerificationRequestedEvent
+        spring.json.value.default.type: org.example.notificationservice.event.VerificationRequestedEvent
